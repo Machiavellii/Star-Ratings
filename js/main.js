@@ -1,4 +1,4 @@
-// Initial Ratings
+// Initial Rating
 const ratings = {
     sony: 4.7,
     samsung: 3.4,
@@ -10,7 +10,7 @@ const ratings = {
   // Total Stars
   const starsTotal = 5;
 
-  // Run getRatings when DOM loads
+  // Run getRatings when DOM load
   document.addEventListener('DOMContentLoaded', getRatings); 
   //Form elements
   let productSelect = document.getElementById('product-select');
