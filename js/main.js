@@ -25,7 +25,7 @@ const ratings = {
     //Enablng Rating Control
     ratingControl.disabled = false;
     ratingControl.value = ratings[product];
-  });
+  })
 
   // Rating control change
   ratingControl.addEventListener('blur', (e) => {
