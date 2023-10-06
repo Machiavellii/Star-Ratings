@@ -8,13 +8,13 @@ const ratings = {
   }
 
   // Total Stars
-  const starsTotal = 5;
+  const starsTotal = 5
 
   // Run getRatings when DOM loads
-  document.addEventListener('DOMContentLoaded', getRatings); 
+  document.addEventListener('DOMContentLoaded', getRatings)
   //Form elements
-  let productSelect = document.getElementById('product-select');
-  let ratingControl = document.getElementById('rating-control');
+  let productSelect = document.getElementById('product-select')
+  let ratingControl = document.getElementById('rating-control')
 
   //Product 
   let product;
